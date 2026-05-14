@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+int k,l,ans=0 ;
+cin >>k>>l ;
+  int ar[k] ;
+  l--;
+  for (int i = 0 ; i < k ;i++)
+  {
+      cin>>ar[i];
+  }
+
+   for (int i = 0 ; i < k ;i++)
+  {
+
+      if (ar[l]==0){
+       if(ar[l]<ar[i]){
+        ans++;
+       }
+      }
+      else {
+      if (ar[l]<=ar[i]){
+            ans++;
+
+      }}
+}cout <<ans;}

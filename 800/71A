@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int t;
+cin >>t;
+while (t--){
+        int v=0,w=0;
+
+    string s;
+    cin>>s;
+v=s.size()-1;
+w=s.size()-2;
+    if (s.size () <11){
+        cout <<s<<endl;
+    }
+    else {
+        cout <<s[0]<<w<<s[v]<<endl;
+    }
+}
+}

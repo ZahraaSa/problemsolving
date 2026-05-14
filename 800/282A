@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int n=0;
+    cin>>n;
+    int a,ans=0;
+    a=n*3;
+char c[a];
+for (int i=0;i<a;i++){
+  cin>>c[i];
+}
+for (int i=0;i<a;i=i+2){
+if (c[i]==43){
+    ans++;
+}
+else if (c[i]==45){
+    ans--;
+}
+}
+cout <<ans;}

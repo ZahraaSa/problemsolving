@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+int N;
+int M;
+int z;
+cin>>N;
+cin>>M;
+if(N%2==0){
+    if (M%2==0){
+        z=M*N;
+        z=z/2;
+        cout<<z;
+    }
+}
+if (N%2!=0){
+    if(M%2==0){
+            z=M*N;
+    z=z/2;
+        cout<<z;
+
+    }}
+  if (M%2!=0){
+    if(N%2==0){
+            z=M*N;
+    z=z/2;
+        cout<<z;
+
+    }}
+ if (M%2!=0){
+    if(N%2!=0){
+            z=M*N;
+            z=z-1;
+
+    z=z/2;
+        cout<<z;
+
+    }}
+}
